@@ -1,7 +1,14 @@
 .jumbotron{
-	background-image: url(../images/background-blur-clean-531880.jpg);
+	background-image: linear-gradient(to right, #00b7ea 0%,#009ec3 36%,#009ec3 84%);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	color: white;
+	text-align: center;
+	height: 50vh;
+
+}
+.lead{
+	text-align: center;
+	font-size: 22px;
 }

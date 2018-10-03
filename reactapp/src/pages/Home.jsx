@@ -2,6 +2,7 @@ import React,{ Component } from "react";
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
 import Jumbotron from '../components/Jumbotron.jsx';
+import Social from '../components/social-icons.jsx';
 
 
 class Home extends Component {
@@ -9,7 +10,10 @@ class Home extends Component {
 		return(
 		<div>
 		<Navbar />
-		<Jumbotron title= "Welcome" subtitle="Put something witty here." />
+		<Jumbotron title= "Hello, I'm Richard Chalmers!" subtitle="Junior Full Stack Dev | Digital Marketer | Business Owner">
+		<Social />
+		</Jumbotron>
+		
 			<div className = "container">
 				<h2>Welcome To React App</h2>
 				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
